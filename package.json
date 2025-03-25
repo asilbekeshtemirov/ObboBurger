@@ -1,0 +1,30 @@
+{
+  "name": "obboburger",
+  "version": "0.3.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilbekeshtemirov/ObboBurger.git"
+  },
+  "keywords": [],
+  "author": "Asilbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asilbekeshtemirov/ObboBurger/issues"
+  },
+  "homepage": "https://github.com/asilbekeshtemirov/ObboBurger#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  }
+}
