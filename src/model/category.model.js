@@ -8,7 +8,7 @@ const CategorySchema = new mongoose.Schema(
       unique: true,
     },
     foods: {
-      type: mongoose.SchemaTypes.Array,
+      type: mongoose.SchemaTypes.ObjectId,
       ref: "Food"
     }
   },
